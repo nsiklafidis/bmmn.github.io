@@ -97,12 +97,12 @@
 
 @font-face {
     font-family: 'KANewStathisMain-Regular';
-    src: url('../fonts/KANewStathisMain-Regular.ttf');
+    src: url('KANewStathisMain-Regular.ttf');
 }
 
 @font-face {
     font-family: 'KANewStathisMartyria-Regular';
-    src: url('../../fonts/KA New Stathis/KANewStathisMartyria-Regular.ttf');
+    src: url('../fonts/KA New Stathis/KANewStathisMartyria-Regular.ttf');
 }
 
 body {
