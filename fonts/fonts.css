@@ -145,11 +145,11 @@ body {
       /*font-family: 'KAAlmouziosMain-Regular';*/
       /* font-family: 'KAArvanitisMain-Regular'; */
       font-family: 'KANewStathisMain-Regular'; 
-      font-size: 120px;
+      font-size: 50px;
       /*font-weight: bold;*/
       /*line-height: 80px;*/
-      position: relative;
-      border: 1px solid red;
+      position: center;
+      /*border: 1px solid red;*/
     }
 
     dd {
