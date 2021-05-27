@@ -113,13 +113,22 @@ tr:nth-child(even) {
 
 @font-face {
     font-family: 'KANewStathisMain-Regular';
-    src: url('KANewStathisMain-Regular.ttf');
+    src: url('../fonts/KANewStathisMain-Regular.ttf');
 }
 
 @font-face {
     font-family: 'KANewStathisMartyria-Regular';
     src: url('../fonts/KA New Stathis/KANewStathisMartyria-Regular.ttf');
 }
+@font-face {
+    font-family: 'Siklafidis_Neumes';
+    src: url('../fonts/Siklafidis_Neumes.ttf');
+}
+@font-face {
+    font-family: 'Symbola_hint';
+    src: url('../fonts/Symbola_hint.ttf');
+}
+
 
 body {
       width: 100%;
@@ -141,20 +150,52 @@ body {
       font-size: 0;
     }
 
-    dt {
+    a {
       /*font-family: 'KAAlmouziosMain-Regular';*/
       /* font-family: 'KAArvanitisMain-Regular'; */
-      font-family: 'KANewStathisMain-Regular'; 
-      font-size: 50px;
+     /*  font-family: 'KANewStathisMain-Regular'; */
+      font-family: 'Siklafidis_Neumes';
+      font-size: 150px;
       /*font-weight: bold;*/
       /*line-height: 80px;*/
       /*position: center;*/
-      /*border: 1px solid red;*/
+      border: 1px solid red;
+      margin: 0px;
     }
+p {
+    font-family:'Symbola_hint'; 
+    font-size: 150px;
+    margin: 0px;
+    border: 1px solid red;
+}
+a.intro{
+
+    font-family: 'Alegreya-Medium';
+    font-size: 50px; 
+}
 
     dd {
       margin: 0;
       font-size: 35px;
       line-height: 75px;
+      max-width: 150px;
       border: 1px solid green;
     }
+dt {
+      /*font-family: 'KAAlmouziosMain-Regular';*/
+      /* font-family: 'KAArvanitisMain-Regular'; */
+      font-family:'Symbola_hint'; 
+      font-size: 120px;
+      /*font-weight: bold;*/
+      /*line-height: 80px;*/
+     
+      border: 1px solid red;
+      margin: 0;
+      
+    }
+
+a.stath {
+    font-family:'KANewStathisMain-Regular'; 
+    font-size: 120px;
+    margin: 0;
+}
